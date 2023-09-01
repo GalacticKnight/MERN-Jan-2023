@@ -1,0 +1,13 @@
+.user-form{
+    background-color: rgba(128, 128, 128, .5);
+    padding: 20px;
+    border-radius: 20px;
+    color: white;
+    -webkit-box-shadow: 10px 20px 20px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 20px 20px 0px rgba(0,0,0,0.75);
+    box-shadow: 20px 30px 20px 4px rgba(0,0,0,0.75);
+    /* opacity: .5; */
+}
+input{
+    border-radius: 20px !important;
+}

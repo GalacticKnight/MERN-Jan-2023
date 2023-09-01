@@ -1,0 +1,24 @@
+I tried registering with an email already used. How do you do that?
+
+login error message?????????
+const [error, setError] = useState("")
+.catch((err) => {
+                console.log(err.response.data.message);//change to 
+                setError(err.response.data.message);//chris
+            })
+{//chris
+                    error?
+                    <p>{error}</p>
+                    ://if not explicit, it will become this instead
+                    null
+}
+
+
+For posting a album,regardless of the missing information, it still displays "You must be logged in to post an album"
+The edit page doesnt display placeholder in the form. How to fix that?
+How to make the edit button only visible to the authenticated?
+and how to make the delete button only visible to the authenticated?
+What does UserContext do?
+What is .env used for?
+
+The posting albums is not linked to the user account.
